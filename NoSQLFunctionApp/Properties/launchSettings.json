@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "NoSQLFunctionApp": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7174"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 33699,
+      "useSSL": false
+    }
+  }
+}
